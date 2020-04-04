@@ -1,0 +1,84 @@
+// GET /v1/crisis-events
+
+{
+	"data": [
+		{
+			"type": "crisis-event",
+			"id": "1",
+			"attributes": {
+				"name": "covi-19",
+				"start_at": "2020-03-01 00:00:00 -007",
+				"end_at": "2020-03-01 00:00:00 -007",
+				"scenarios": [
+					{
+						"type": "scenario",
+						"id": "1",
+						"attributes": {
+							"scenario_type": "virus",
+							"population_reports": [],
+							"environmental_reports": [
+								{
+									"type": "covid-report",
+									"id": "1",
+									"attributes": {
+										"reported_at": "now",
+										"cases": 0,
+										"death": 0,
+										"minor_cases": 0,
+										"critical_cases": 0
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}
+
+// GET /v1/crisis-events
+
+{
+	"data": [
+		{
+			"type": "crisis-event",
+			"id": "1",
+			"attributes": {
+				"name": "covi-19",
+				"start_at": "2020-03-01 00:00:00 -007",
+				"end_at": "2020-03-01 00:00:00 -007",
+				"scenarios": [ ... ]
+			}
+		}
+	]
+}
+
+
+// GET /v1/scenarios?crisis-event-id=1
+
+{
+	"data": [
+		{
+			"type": "scenario",
+			"id": "1",
+			"attributes": {
+				"scenario_type": "virus",
+				"population_reports": [],
+				"environmental_reports": [
+					{
+						"type": "covid-report",
+						"id": "1",
+						"attributes": {
+							"reported_at": "now",
+							"cases": 0,
+							"death": 0,
+							"minor_cases": 0,
+							"critical_cases": 0
+						}
+					}
+				]
+			}
+		}
+	]
+}
