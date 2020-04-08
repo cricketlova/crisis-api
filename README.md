@@ -14,11 +14,22 @@ The EcoMediations API is speculated around REST protocols. This API is for use i
 ## Reference:
 
 ### Crisis Event
-This is an object that represents the type of Crisis Event in which you can call. You can retrieve it to see the time at which it started and ended.
+This is an object that represents the type of Crisis Event in which you can call. You can retrieve it to see the highest level of the crisis itself.
 
+```Javascript
+GET /v1/crisis-events
+```
 
-Example:
+#### The Crisis Event Object
 
+##### Attributes:
+- <b>Type</b> - Type of crisis
+- <b>id</b> - UUID
+- <b>name</b> -  Name of the crisis
+- <b>start_at</b> - The beginning in which the crisis started based on the beginning of time.
+- <b>end_at</b> - The end in which the crisis has ended. Potentially `null` if it is ongoing.
+
+Example Code:
 ```JSON
 {
 	"data": [
@@ -34,6 +45,17 @@ Example:
   ]
 }
 ```
+
+Example Implementation:
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
+
+
 
 
 
