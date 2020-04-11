@@ -48,7 +48,7 @@ Example Code:
 
 Example Implementation:
 
-[![Alt text](https://damien.pobel.fr/images/200x/syrphe-phacelie.jpg)](https://www.youtube.com/embed/enMumwvLAug)
+[![test](http://img.youtube.com/vi/enMumwvLAug/0.jpg)](http://www.youtube.com/watch?v=enMumwvLAug "test")
 
 
 
