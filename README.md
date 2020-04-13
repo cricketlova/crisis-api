@@ -1,7 +1,7 @@
-> :warning: **This API is not stable or real yet!**: This document describes the level of API speculation in which  would in the future support a level of integration to our digital and virtual devices. Please note that until we can get   further support and development, the API is not considered stable or real yet, and any of these proposals may change with time. We’re incredibly interested in your feedback. If you spot an instance where Crisis API can be improved, please do email for discussion. For any other questions, including support on how to use the API and as a place for open discussions on the design and principles
+> :warning: **This API is not stable or real yet!**: This document is a speculative API that details deep integration of environmental crisis data into our digital and virtual devices. Please note that until we can get further support and development, this API is not considered stable or real yet, and any of these proposals may change with time. We’re incredibly interested in your feedback. If you spot an instance where this EcoMediations API can be improved, please do email for discussion. For any other questions, including support on how to use the API and as a place for open discussions on the design and principles, email us too.
 
 # EcoMediations API
-An impractical API for our current Anthropocene.
+An impractical API for the current Anthropocene.
 
 
 ## Introduction
@@ -11,10 +11,19 @@ We at the VRC propose that developers, makers,  and more should begin moving tow
 
 The EcoMediations API is speculated around REST protocols. This API is for use in our crisis driven future and can be built around resource-oriented URLs, JSON-responses, HTTP response codes, etc... (or something else entirely).
 
-### Data
-The consortium's EcoMediations API is organized around both public, private, and open source data models.
+### Data Input & Storing
+The consortium's EcoMediations API is organized around public, private, and open source data sources. The VRC will have a crisis database in which stores all of the data sources from satellite to UAV surveying.
 
 ![eco-api-architecture](https://raw.githubusercontent.com/cricketlova/crisis-api/master/eco-api-architecture.png)
+
+### Data Vetting
+Data is vetted through the VRC Data Ethics governing body where
+
+
+### Event Thresholds
+
+
+
 
 ## Reference
 
