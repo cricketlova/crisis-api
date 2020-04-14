@@ -17,7 +17,7 @@ The consortium's EcoMediations API is organized around public, private, and open
 ![eco-api-architecture](https://raw.githubusercontent.com/cricketlova/crisis-api/master/eco-api-architecture.png)
 
 ### Data Vetting
-Data is vetted through the VRC Data Ethics governing body where
+Future data will be vetted through the VRC Data Ethics governing body where the source data is parsed for accuracy and filtered of redundancies.  
 
 
 ### Event Thresholds
