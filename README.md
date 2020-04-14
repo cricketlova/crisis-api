@@ -34,7 +34,7 @@ This is an object that represents the type of Crisis Event in which you can call
 GET /v1/crisis-events
 ```
 
-#### The Crisis Event Object
+#### Crisis Event Object
 
 ##### Attributes:
 - <b>Type</b> - Type of crisis event for the object.
@@ -60,19 +60,45 @@ Example Code:
 }
 ```
 
-Example Implementation:
-
-[![test](http://img.youtube.com/vi/enMumwvLAug/0.jpg)](http://www.youtube.com/watch?v=enMumwvLAug "test")
-
-
 ### Crisis Scenario
 Scenarios holds two types of records that can be retrieved from any crisis event, population (e.g. biodiversity, species identification, etc...) and/or environmental (seismologic data, atmospheric data, etc...).
 
 ```Javascript
-GET /v1/scenarios?crisis-event-id=1
+GET /v1/scenarios/crisis-event-id=1
 ```
 
-#### The Crisis Scenario Object
+#### Crisis Scenario Object
+
+##### Attributes:
+- <b>id</b> - Unique identifier for the scenario.
+- <b>name</b> -  Specific name of the crisis event for the object.
+- <b>start_at</b> - The beginning in which the crisis started based on the beginning of time.
+- <b>end_at</b> - The end in which the crisis has ended. Potentially `null` if it is ongoing.
+
+Example Code:
+```JSON
+{
+	"data": [
+		{
+			"type": "scenario",
+			"id": "1",
+			"attributes": {
+				"scenario_type": "Environmental",
+				"crisis_event_id": "1"
+   }
+  }
+ ]
+}
+```
+
+### Records
+Records hold
+
+```Javascript
+GET /v1/scenarios/crisis-event-id=1
+```
+
+#### Crisis Scenario Records
 
 ##### Attributes:
 - <b>id</b> - Unique identifier for the scenario.
@@ -102,3 +128,12 @@ Example Code:
 	]
 }
 ```
+
+
+
+
+
+
+Example Implementation:
+
+[![test](http://img.youtube.com/vi/enMumwvLAug/0.jpg)](http://www.youtube.com/watch?v=enMumwvLAug "test")
