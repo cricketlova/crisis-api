@@ -93,16 +93,8 @@ Example Code:
 					{
 						"id": "SeismologicRecord",
 						"scenario_id": "1",
-						"attributes": {
-							"id": "now",
-							"started_at": 0,
-							"duration": 0,
-							"epicenter_lat": 0,
-							"epicenter_long": 0,
-							"magnitude": 0,
-							"aftershock": true,
-							"ground_shift_mm": 10
-						}
+						"report_id": "1",
+						"report_type": "SeismologicRecord",
 					}
 				]
 			}
