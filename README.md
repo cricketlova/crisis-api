@@ -17,11 +17,11 @@ The consortium's EcoMediations API is organized around public, private, and open
 ![eco-api-architecture](https://raw.githubusercontent.com/cricketlova/crisis-api/master/eco-api-architecture.png)
 
 ### Data Vetting
-Future data will be vetted through the VRC Data Ethics governing body where the source data is parsed for accuracy and filtered of redundancies.  
+Future data will be vetted through the VRC Data Ethics governing body where the source data is parsed for accuracy and filtered of redundancies. This governing body will help maintain consistency through an internal ETL/data cleaning process, especially as data is contributed from all fronts from the most micro DIY sensors to more complex uploads from institutions.
 
 
-### Event Thresholds
-
+### Event & Data Thresholds
+Through a few speculative near-future partnerships with environmental agencies such as the EPA, NASA, WWF, USDA, US Forest Service, and more... the VRC will be able to facilitate local and global agreements on thresholds in which environmental data cross and automates a new climactic event. Additionally, organizations using the EcoMediations API may follow the threshold examples below for their own implementation purposes.
 
 
 
