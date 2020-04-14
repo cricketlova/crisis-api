@@ -37,9 +37,9 @@ GET /v1/crisis-events
 #### The Crisis Event Object
 
 ##### Attributes:
-- <b>Type</b> - Type of crisis
-- <b>id</b> - UUID
-- <b>name</b> -  Name of the crisis
+- <b>Type</b> - Type of crisis event for the object.
+- <b>id</b> - Unique identifier for the event.
+- <b>name</b> -  Specific name of the crisis event for the object.
 - <b>start_at</b> - The beginning in which the crisis started based on the beginning of time.
 - <b>end_at</b> - The end in which the crisis has ended. Potentially `null` if it is ongoing.
 
@@ -65,16 +65,48 @@ Example Implementation:
 [![test](http://img.youtube.com/vi/enMumwvLAug/0.jpg)](http://www.youtube.com/watch?v=enMumwvLAug "test")
 
 
+### Crisis Scenario
+Scenarios holds two types of records that can be retrieved from any crisis event, population (e.g. biodiversity, species identification, etc...) and/or environmental (seismologic data, atmospheric data, etc...).
 
+```Javascript
+GET /v1/scenarios?crisis-event-id=1
+```
 
+#### The Crisis Scenario Object
 
+##### Attributes:
+- <b>id</b> - Unique identifier for the scenario.
+- <b>name</b> -  Specific name of the crisis event for the object.
+- <b>start_at</b> - The beginning in which the crisis started based on the beginning of time.
+- <b>end_at</b> - The end in which the crisis has ended. Potentially `null` if it is ongoing.
 
-
-
-
--------
-Technical topics:
-- authentication
-- format
-- How (RestFUL)
-- Endpoints & Responses (examples) =
+Example Code:
+```JSON
+{
+	"data": [
+		{
+			"type": "scenario",
+			"id": "1",
+			"attributes": {
+				"scenario_type": "Environmental"
+				[
+					{
+						"id": "SeismologicRecord",
+						"scenario_id": "1",
+						"attributes": {
+							"id": "now",
+							"started_at": 0,
+							"duration": 0,
+							"epicenter_lat": 0,
+							"epicenter_long": 0,
+							"magnitude": 0,
+							"aftershock": true,
+							"ground_shift_mm": 10
+						}
+					}
+				]
+			}
+		}
+	]
+}
+```
