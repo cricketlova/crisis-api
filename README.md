@@ -104,18 +104,18 @@ GET /v1/scenarios/environmental/atmosphereRecord
 
 ##### Attributes:
 - <b>id</b> - Unique identifier for the scenario.
-- <b>measured_at</b> -  
-- <b>temperature</b> -  
-- <b>co2_level</b> -  
-- <b>co2_unit_descriptor</b> -  
-- <b>ch4_level</b> -  
-- <b>ch4_unit_descriptor</b> -  
-- <b>no_level</b> -  
-- <b>no_unit_descriptor</b> -  
-- <b>no2_level</b> -  
-- <b>no2_unit_descriptor</b> -  
-- <b>pm2.5_level</b> -  
-- <b>pm2.5_unit_descriptor</b> -  
+- <b>measured_at</b> - Time in which record was measured
+- <b>temperature</b> - Log of temperature
+- <b>co2_level</b> - Carbon levels in the air
+- <b>co2_unit_descriptor</b> - Carbon level descriptor (PPM)
+- <b>ch4_level</b> - Methane levels in the air
+- <b>ch4_unit_descriptor</b> - Methane level descriptor
+- <b>no_level</b> - Nitrogen Monoxide levels in the air
+- <b>no_unit_descriptor</b> - Nitrogen Monoxide level descriptor
+- <b>no2_level</b> - Nitrogen Dioxide levels in the air
+- <b>no2_unit_descriptor</b> - Nitrogen Dioxide level descriptor
+- <b>pm2.5_level</b> - Fine Particulate Matter levels
+- <b>pm2.5_unit_descriptor</b> - Fine Particulate Matter descriptor (μg/m3)
 
 
 
