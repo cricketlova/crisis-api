@@ -102,6 +102,9 @@ GET /v1/scenarios/environmental/atmosphereRecord
 
 #### Crisis Scenario Records
 
+<details>
+<summary>Atmosphere Record</summary>
+
 ##### Attributes:
 - <b>id</b> - Unique identifier for the scenario.
 - <b>measured_at</b> - Time in which record was measured
@@ -116,7 +119,26 @@ GET /v1/scenarios/environmental/atmosphereRecord
 - <b>no2_unit_descriptor</b> - Nitrogen Dioxide level descriptor
 - <b>pm2.5_level</b> - Fine Particulate Matter levels
 - <b>pm2.5_unit_descriptor</b> - Fine Particulate Matter descriptor (μg/m3)
+</details>
+<br>
 
+<details>
+<summary>Seismologic Record</summary>
+
+##### Attributes:
+- <b>id</b> - Unique identifier for the scenario.
+- <b>started_at</b> - Time in which record was measured
+- <b>duration</b> - How long the seismic event lasted (minutes:seconds)
+- <b>epicenter_lat</b> - Latitude of epicenter in which the earthquake started
+- <b>epicenter_long</b> - Longitude of epicenter in which the earthquake started
+- <b>magnitude</b> - Logged magnitude of earthquake from epicenter
+- <b>aftershock</b> - Whether or not there was an aftershock
+- <b>ground_shift_mm</b> - How much the ground shifted after the seismic event
+
+</details>
+
+<br>
+<br>
 
 
 Example Code:
