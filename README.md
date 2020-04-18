@@ -227,7 +227,28 @@ Example Code:
         ]
       }
     }
+{
+  "data": [
+    {
+      "type": "scenario",
+      "id": "1",
+      "attributes": {
+        "scenario_type": "Environmental",
+        "records": [
+          {
+            "id": "1",
+            "type": "seismologic-record",
+            "attributes": {
+              "scenario_id": "1",
+              "report_type": "SeismologicRecord",
+              // ... othjer SeismologicRecord attributes
+            }
+          }
+        ]
+      }
+    }
   ]
+}
 }
 ```
 
