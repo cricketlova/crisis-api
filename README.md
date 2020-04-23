@@ -43,7 +43,7 @@ GET /v1/crisis-events
 - <b>Type</b> - Type of crisis event for the object.
 - <b>id</b> - Unique identifier for the event.
 - <b>name</b> - Specific name of the crisis event for the object.
-- <b>start_at</b> - The beginning in which the crisis started based on the beginning of time.
+- <b>start_at</b> - The beginning in which the crisis started based on time.
 - <b>end_at</b> - The end in which the crisis has ended. Potentially `null` if it is ongoing.
 
 Example Code:
