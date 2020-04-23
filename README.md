@@ -23,14 +23,13 @@ Future data will be vetted through the VRC Data Ethics governing body where the 
 #### The Human
 With the data and measurements of our environments, there is the idea of distinction between what is human influenced versus naturally occurring.
 
-
 ### Event & Data Thresholds
 Through a few speculative near-future partnerships with environmental agencies such as the EPA, NASA, WWF, USDA, US Forest Service, and more... the VRC will be able to facilitate local and global agreements on thresholds in which environmental data cross and automates a new climactic event. Additionally, organizations using the EcoMediations API may follow the threshold examples below for their own implementation purposes.
 
 ### Outputs
+The outputs of this crisis focused database is an embedding of crisis moments as an integrated moment in between our digital and virtual experiences. The goal is to partner with technology to showcase environmental crisis not as a static visualization, report, or mapping dashboard, but rather a truly dynamic imaginary implicitly part of products and software we consume on a day to day. A consumer grade level integration across all of our media.
 
-
-![hypergreen-environment-model](https://raw.githubusercontent.com/cricketlova/crisis-api/master/eco-api-architecture.png)
+![hypergreen-environment-model](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/Current%20Environmental%20Model.png)
 
 
 ## Reference
