@@ -207,8 +207,12 @@ GET /v1/scenarios/:scenario_id/records?record_type=canopyCover
 ##### Example Implementation:
 A few examples of Spotify's revamp on their music filter. Where songs are now modified based on `total_loss_by_natural` to adjust pitch and tone. Just as well, additional elements of modification are drawn from the Species Record as an inclusion of Bark Beetle data in the Northern California forestry areas.
 <br>
-
-[Spotify-example](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/superMario-Frame.png)](https://youtu.be/fB14xb4M7Yo?t=5)
+<br>
+Sample Spotify EcoAudio Files:
+<br>
+[Simon & Garfunkel - The Sound of Silence](/SimonGarfunkel_SoundofSilence.mp3)
+<br>
+[The Temptations - Ain't too Proud](/SimonGarfunkel_SoundofSilence.mp3)
 
 
 ---
