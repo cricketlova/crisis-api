@@ -12,12 +12,19 @@ We at the [Virtually Real Consortium](https://www.virtuallyrealconsortium.org/) 
 This API is for use in our crisis driven future and follows RESTful standards and uses JSON.
 
 ### Data Input & Storing
+#### Inputs
 The consortium's EcoMediations API is organized around public, private, and open source data sources. The Virtually Real Consortium (VRC) will have a crisis database in which stores all of the data sources from satellite to UAV surveying.
 
 ![eco-api-architecture](https://raw.githubusercontent.com/cricketlova/crisis-api/master/eco-api-architecture.png)
 
-### Data Vetting
+#### Data Vetting
 Future data will be vetted through the VRC Data Ethics governing body where the source data is parsed for accuracy and filtered of redundancies. This governing body will help maintain consistency through an internal ETL/data cleaning process, especially as data is contributed from all fronts from the most micro DIY sensors to more complex uploads from institutions.
+
+#### The Human
+
+
+
+
 
 ### Event & Data Thresholds
 Through a few speculative near-future partnerships with environmental agencies such as the EPA, NASA, WWF, USDA, US Forest Service, and more... the VRC will be able to facilitate local and global agreements on thresholds in which environmental data cross and automates a new climactic event. Additionally, organizations using the EcoMediations API may follow the threshold examples below for their own implementation purposes.
@@ -97,10 +104,9 @@ Records contain all data that contribute to a specific crisis scenario within bo
 
 Note: Not all records contain the same data.
 
-#### Crisis Scenario Records
+---
 
-<details>
-<summary>Atmosphere Record</summary>
+#### Atmosphere Record
 
 ```
 GET /v1/scenarios/:scenario_id/records?record_type=atmosphere
@@ -122,11 +128,10 @@ GET /v1/scenarios/:scenario_id/records?record_type=atmosphere
 - <b>pm2.5_unit_descriptor</b> - Fine Particulate Matter descriptor (μg/m3)
 </details>
 
-<details>
-<summary>Seismologic Record</summary>
+#### Seismologic Record
 
 ```
-GET /v1/scenarios/environmental/seismologicRecord
+GET /v1/scenarios/:scenario_id/records?record_type=seismologic
 ```
 
 ##### Attributes:
@@ -139,13 +144,10 @@ GET /v1/scenarios/environmental/seismologicRecord
 - <b>aftershock</b> - Whether or not there was an aftershock
 - <b>ground_shift_mm</b> - How much the ground shifted after the seismic event
 
-</details>
-
-<details>
-<summary>Canopy Cover Record</summary>
+#### Canopy Cover Record
 
 ```
-GET /v1/scenarios/environmental/canopyCoverRecord
+GET /v1/scenarios/:scenario_id/records?record_type=canopyCover
 ```
 
 ##### Attributes:
@@ -160,11 +162,10 @@ GET /v1/scenarios/environmental/canopyCoverRecord
 - <b>change_over_time</b> an attribute based on two time parameters and change in either loss or gain from it
 </details>
 
-<details>
-<summary>Arctic Ice Mass Record</summary>
+#### Arctic Ice Mass Record
 
 ```
-GET /v1/scenarios/environmental/arcticIceMassRecord
+GET /v1/scenarios/:scenario_id/records?record_type=arcticIceMass
 ```
 
 ##### Attributes:
@@ -176,11 +177,10 @@ GET /v1/scenarios/environmental/arcticIceMassRecord
 - <b>methane_release</b> - amount of methane released into the air based on ice_loss
 </details>
 
-<details>
-<summary>Sea Level Record</summary>
+#### Sea Level Record
 
 ```
-GET /v1/scenarios/environmental/seaLevelRecord
+GET /v1/scenarios/:scenario_id/records?record_type=seaLevel
 ```
 
 ##### Attributes:
