@@ -128,10 +128,9 @@ GET /v1/scenarios/:scenario_id/records?record_type=atmosphere
 - <b>no2_unit_descriptor</b> - Nitrogen Dioxide level descriptor
 - <b>pm2.5_level</b> - Fine Particulate Matter levels
 - <b>pm2.5_unit_descriptor</b> - Fine Particulate Matter descriptor (μg/m3)
-</details>
 - <b>pm10_level</b> - Fine Particulate Matter levels
 - <b>pm10_unit_descriptor</b> - Large Particulate Matter descriptor (μg/m3)
-</details>
+
 
 Example Implementation:
 <br>
@@ -203,7 +202,7 @@ GET /v1/scenarios/:scenario_id/records?record_type=canopyCover
 - <b>total_loss_by_natural</b> - how much canopy loss to natural occurrences
 - <b>density</b> - volume density of the canopy growth within the Forest
 - <b>change_over_time</b> an attribute based on two time parameters and change in either loss or gain from it
-</details>
+
 
 ---
 
@@ -220,7 +219,7 @@ GET /v1/scenarios/:scenario_id/records?record_type=arcticIceMass
 - <b>ice_gain</b> - how much arctic ice gain has happened in the area relative to a base measurement
 - <b>ice_loss</b> - how much arctic ice loss has happened in the area relative to a base measurement
 - <b>methane_release</b> - amount of methane released into the air based on ice_loss
-</details>
+
 
 ---
 
@@ -237,4 +236,3 @@ GET /v1/scenarios/:scenario_id/records?record_type=seaLevel
 - <b>total_height</b> - based on measurements from the designated sea gauge
 - <b>sea_height_variation</b> - how much sea levels have risen compared and relative to a base measurement
 - <b>sea_level_change</b> - change over time of sea level from base measurement
-</details>
