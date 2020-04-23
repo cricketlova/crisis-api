@@ -19,7 +19,7 @@ The consortium's EcoMediations API is organized around public, private, and open
 
 Example UML:
 
-![eco-mediations-UML](/assets/UML-example.png)
+![eco-mediations-UML](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/UML-example.png)
 
 #### Data Vetting
 Future data will be vetted through the VRC Data Ethics governing body where the source data is parsed for accuracy and filtered of redundancies. This governing body will help maintain consistency through an internal ETL/data cleaning process, especially as data is contributed from all fronts from the most micro DIY sensors to more complex uploads from institutions.
