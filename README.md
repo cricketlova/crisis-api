@@ -137,7 +137,7 @@ Example Implementation:
 <br>
 An example of how CCTV has implemented with `pm2.5` and `pm10` are new markers on all of their footage across their natural surveying cameras. You can their incorporations of the location of area as well.
 
-![CCTV Atmosphere GIF](https://freight.cargo.site/w/900/q/75/i/50d24d1e279bde7b255a746f3d8b806409d358055a1ef3389499a2004e78d1ed/CCTV-visualizer.gif)
+![CCTV Atmosphere GIF](https://github.com/cricketlova/crisis-api/blob/master/Assets/CCTV-visualizer.gif?raw=true)
 
 ---
 
