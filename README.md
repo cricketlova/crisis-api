@@ -264,4 +264,4 @@ Example Code:
 An example of a remix and redux of Super Mario by Nintendo. With their re-release of the game, they hooked their web emulator to include `sea_level_change` in their most classic and beloved Super Mario Bros. Now obstacles don't only include Koopa Troopas but also a variety of oceanic levels integrated into gameplay.
 <br>
 
-[![super-mario-example](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/superMario-Frame.png)]("https://youtu.be/fB14xb4M7Yo?t=5")
+[![super-mario-example](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/superMario-Frame.png)](https://youtu.be/fB14xb4M7Yo?t=5)
