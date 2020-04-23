@@ -128,6 +128,8 @@ GET /v1/scenarios/:scenario_id/records?record_type=atmosphere
 - <b>pm2.5_unit_descriptor</b> - Fine Particulate Matter descriptor (μg/m3)
 </details>
 
+---
+
 #### Seismologic Record
 
 ```
@@ -144,57 +146,7 @@ GET /v1/scenarios/:scenario_id/records?record_type=seismologic
 - <b>aftershock</b> - Whether or not there was an aftershock
 - <b>ground_shift_mm</b> - How much the ground shifted after the seismic event
 
-#### Canopy Cover Record
-
-```
-GET /v1/scenarios/:scenario_id/records?record_type=canopyCover
-```
-
-##### Attributes:
-- <b>id</b> - Unique identifier for the record
-- <b>measured_at</b> - Time in which record was measured first
-- <b>total_area</b> - the whole area in which the measurement is taking place
-- <b>tree_gain</b> - how much canopy gain has happened in the area relative to a base measurement
-- <b>tree_loss</b> - how much canopy loss has happened in the area relative to a base measurement
-- <b>total_loss_by_human</b> - how much canopy loss to deforestation or other human activity
-- <b>total_loss_by_natural</b> - how much canopy loss to natural occurrences
-- <b>density</b> - volume density of the canopy growth within the Forest
-- <b>change_over_time</b> an attribute based on two time parameters and change in either loss or gain from it
-</details>
-
-#### Arctic Ice Mass Record
-
-```
-GET /v1/scenarios/:scenario_id/records?record_type=arcticIceMass
-```
-
-##### Attributes:
-- <b>id</b> - Unique identifier for the record
-- <b>measured_at</b> - Time in which record was measured first
-- <b>total_area</b> - the whole area in which the measurement is taking place
-- <b>ice_gain</b> - how much arctic ice gain has happened in the area relative to a base measurement
-- <b>ice_loss</b> - how much arctic ice loss has happened in the area relative to a base measurement
-- <b>methane_release</b> - amount of methane released into the air based on ice_loss
-</details>
-
-#### Sea Level Record
-
-```
-GET /v1/scenarios/:scenario_id/records?record_type=seaLevel
-```
-
-##### Attributes:
-- <b>id</b> - Unique identifier for the record
-- <b>measured_at</b> - Time in which record was measured first
-- <b>temperature</b> - temperature of the sea
-- <b>total_height</b> - based on measurements from the designated sea gauge
-- <b>sea_height_variation</b> - how much sea levels have risen compared and relative to a base measurement
-- <b>sea_level_change</b> - change over time of sea level from base measurement
-</details>
-
 <br>
-<br>
-
 
 Example Code:
 ```JSON
@@ -222,3 +174,60 @@ Example Code:
 Example Implementation:
 
 [![test](http://img.youtube.com/vi/enMumwvLAug/0.jpg)](http://www.youtube.com/watch?v=enMumwvLAug "test")
+
+
+
+
+---
+
+#### Canopy Cover Record
+
+```
+GET /v1/scenarios/:scenario_id/records?record_type=canopyCover
+```
+
+##### Attributes:
+- <b>id</b> - Unique identifier for the record
+- <b>measured_at</b> - Time in which record was measured first
+- <b>total_area</b> - the whole area in which the measurement is taking place
+- <b>tree_gain</b> - how much canopy gain has happened in the area relative to a base measurement
+- <b>tree_loss</b> - how much canopy loss has happened in the area relative to a base measurement
+- <b>total_loss_by_human</b> - how much canopy loss to deforestation or other human activity
+- <b>total_loss_by_natural</b> - how much canopy loss to natural occurrences
+- <b>density</b> - volume density of the canopy growth within the Forest
+- <b>change_over_time</b> an attribute based on two time parameters and change in either loss or gain from it
+</details>
+
+---
+
+#### Arctic Ice Mass Record
+
+```
+GET /v1/scenarios/:scenario_id/records?record_type=arcticIceMass
+```
+
+##### Attributes:
+- <b>id</b> - Unique identifier for the record
+- <b>measured_at</b> - Time in which record was measured first
+- <b>total_area</b> - the whole area in which the measurement is taking place
+- <b>ice_gain</b> - how much arctic ice gain has happened in the area relative to a base measurement
+- <b>ice_loss</b> - how much arctic ice loss has happened in the area relative to a base measurement
+- <b>methane_release</b> - amount of methane released into the air based on ice_loss
+</details>
+
+---
+
+#### Sea Level Record
+
+```
+GET /v1/scenarios/:scenario_id/records?record_type=seaLevel
+```
+
+##### Attributes:
+- <b>id</b> - Unique identifier for the record
+- <b>measured_at</b> - Time in which record was measured first
+- <b>temperature</b> - temperature of the sea
+- <b>total_height</b> - based on measurements from the designated sea gauge
+- <b>sea_height_variation</b> - how much sea levels have risen compared and relative to a base measurement
+- <b>sea_level_change</b> - change over time of sea level from base measurement
+</details>
