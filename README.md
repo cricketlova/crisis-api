@@ -116,6 +116,8 @@ GET /v1/scenarios/:scenario_id/records?record_type=atmosphere
 - <b>id</b> - Unique identifier for the record
 - <b>measured_at</b> - Time in which record was measured
 - <b>temperature</b> - Log of temperature
+- <b>measured_lat</b> - Latitude of measurement devices
+- <b>measured_long</b> - Longitude of measurement devices
 - <b>co2_level</b> - Carbon levels in the air
 - <b>co2_unit_descriptor</b> - Carbon level descriptor (PPM)
 - <b>ch4_level</b> - Methane levels in the air
@@ -127,6 +129,15 @@ GET /v1/scenarios/:scenario_id/records?record_type=atmosphere
 - <b>pm2.5_level</b> - Fine Particulate Matter levels
 - <b>pm2.5_unit_descriptor</b> - Fine Particulate Matter descriptor (μg/m3)
 </details>
+- <b>pm10_level</b> - Fine Particulate Matter levels
+- <b>pm10_unit_descriptor</b> - Large Particulate Matter descriptor (μg/m3)
+</details>
+
+Example Implementation:
+<br>
+An example of how CCTV has implemented with `pm2.5` and `pm10` are new markers on all of their footage across their natural surveying cameras. You can their incorporations of the location of area as well.
+
+![CCTV Atmosphere GIF](https://freight.cargo.site/w/900/q/75/i/50d24d1e279bde7b255a746f3d8b806409d358055a1ef3389499a2004e78d1ed/CCTV-visualizer.gif)
 
 ---
 
@@ -170,13 +181,9 @@ Example Code:
   ]
 }
 ```
-
 Example Implementation:
 
 [![test](http://img.youtube.com/vi/enMumwvLAug/0.jpg)](http://www.youtube.com/watch?v=enMumwvLAug "test")
-
-
-
 
 ---
 
