@@ -87,7 +87,7 @@ Example Code:
 {
   "data": [
     {
-      "type": "scenario",
+      "type": "crisis-scenario",
       "id": "1",
       "attributes": {
         "scenario_type": "Environmental",
