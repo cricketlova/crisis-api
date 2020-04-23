@@ -204,7 +204,7 @@ GET /v1/scenarios/:scenario_id/records?record_type=canopyCover
 - <b>change_over_time</b> an attribute based on two time parameters and change in either loss or gain from it
 
 
-##### Example Implementation:
+##### Example Implementation #1:
 A few examples of Spotify's revamp on their music filter. Where songs are now modified based on `total_loss_by_natural` to adjust pitch and tone. Just as well, additional elements of modification are drawn from the Species Record as an inclusion of Bark Beetle data in the Northern California forestry areas.
 <br>
 <br>
@@ -214,6 +214,13 @@ Sample Spotify EcoAudio Files:
 <br>
 [The Temptations - Ain't too Proud](/Assets/TheTemptations_AintTooProudToBeg.mp3)
 
+<b>
+
+##### Example Implementation #2:
+An example of how Unity developers are now including levels of growth and decay in in their VR development. Objects in Unity can link to our SDK for `tree_gain` in which include an assortment of crisis centric realism that can be added to your plant life based on growth over time as well as cross-referencing moisture levels in the Atmospheric record.
+<br>
+
+![Rain-plant-growth-example](https://github.com/cricketlova/crisis-api/blob/master/Assets/plant-growth.gif?raw=true)
 
 ---
 
@@ -230,6 +237,12 @@ GET /v1/scenarios/:scenario_id/records?record_type=arcticIceMass
 - <b>ice_gain</b> - how much arctic ice gain has happened in the area relative to a base measurement
 - <b>ice_loss</b> - how much arctic ice loss has happened in the area relative to a base measurement
 - <b>methane_release</b> - amount of methane released into the air based on ice_loss
+
+##### Example Implementation:
+An example of a remix and redux of Super Mario by Nintendo. With their re-release of the game, they hooked their web emulator to include `ice_loss` in their most classic and beloved Super Mario Bros. Now Mario faces more than just Koopa Troopas but also a variety of ice and arctic based level obstacles integrated into gameplay.
+<br>
+
+[![super-mario-example](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/superMario-Frame.png)](https://youtu.be/fB14xb4M7Yo?t=5)
 
 
 ---
@@ -270,9 +283,3 @@ Example Code:
   ]
 }
 ```
-
-##### Example Implementation:
-An example of a remix and redux of Super Mario by Nintendo. With their re-release of the game, they hooked their web emulator to include `sea_level_change` in their most classic and beloved Super Mario Bros. Now obstacles don't only include Koopa Troopas but also a variety of oceanic levels integrated into gameplay.
-<br>
-
-[![super-mario-example](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/superMario-Frame.png)](https://youtu.be/fB14xb4M7Yo?t=5)
