@@ -133,8 +133,8 @@ GET /v1/scenarios/:scenario_id/records?record_type=atmosphere
 
 
 ##### Example Implementation:
-<br>
 An example of how CCTV has implemented with `pm2.5` and `pm10` are new markers on all of their footage across their natural surveying cameras. You can their incorporations of the location of area as well.
+<br>
 
 ![CCTV Atmosphere GIF](https://github.com/cricketlova/crisis-api/blob/master/Assets/CCTV-visualizer.gif?raw=true)
 
@@ -236,3 +236,32 @@ GET /v1/scenarios/:scenario_id/records?record_type=seaLevel
 - <b>total_height</b> - based on measurements from the designated sea gauge
 - <b>sea_height_variation</b> - how much sea levels have risen compared and relative to a base measurement
 - <b>sea_level_change</b> - change over time of sea level from base measurement
+
+Example Code:
+```JSON
+{
+  "data": [
+  {
+  "type": "crisis-scenario",
+  "id": "1",
+  "attributes": {
+  "scenario_type": "Environmental"
+  [
+  {
+  "id": "seaLevelRecord",
+  "scenario_id": "1",
+  "report_id": "1",
+  "report_type": "seaLevelRecord",
+  }
+  ]
+  }
+  }
+  ]
+}
+```
+
+##### Example Implementation:
+An example of a remix and redux of Super Mario by Nintendo. With their re-release of the game, they hooked their web emulator to include `sea_level_change` in their most classic and beloved Super Mario Bros. Now obstacles don't only include Koopa Troopas but also a variety of oceanic levels integrated into gameplay.
+<br>
+
+[![test](http://img.youtube.com/vi/enMumwvLAug/0.jpg)]("https://youtu.be/fB14xb4M7Yo")
