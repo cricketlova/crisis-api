@@ -29,7 +29,7 @@ Through a few speculative near-future partnerships with environmental agencies s
 ### Outputs
 The outputs of this crisis focused database is an embedding of crisis moments as an integrated moment in between our digital and virtual experiences. The goal is to partner with technology to showcase environmental crisis not as a static visualization, report, or mapping dashboard, but rather a truly dynamic imaginary implicitly part of products and software we consume on a day to day. A consumer grade level integration across all of our media.
 
-![hypergreen-environment-model](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/Current%20Environmental%20Model.png)
+![hypergreen-environment-model](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/eco-api-architecture.png)
 
 
 ## Reference
