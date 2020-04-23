@@ -1,7 +1,7 @@
 > :warning: **This API is not stable or real yet!**: This document is a speculative API that details the deep integration of environmental crisis data into our digital and virtual devices. Please note that until we can get further support and development, this API is not considered stable or real yet, and any of these proposals may change with time. We’re incredibly interested in your feedback. If you spot an instance where this EcoMediations API can be improved, please do email for discussion. For any other questions, including support on how to use the API and as a place for open discussions on the design and principles, email us too.
 
 # EcoMediations API
-An ecomediated API for the current Anthropocene and deep integrations with the [Hyper Green Initiative](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/eco-api-architecture.png).
+An ecomediated API for the current Anthropocene and deep integrations with the [Hyper Green Initiative](https://www.virtuallyrealconsortium.org/hyper-green-intiative/).
 
 
 ## Introduction
@@ -11,17 +11,21 @@ We at the [Virtually Real Consortium](https://www.virtuallyrealconsortium.org/) 
 
 This API is for use in our crisis driven future and follows RESTful standards and uses JSON.
 
-### Data Input & Storing
-#### Inputs
-The consortium's EcoMediations API is organized around public, private, and open source data sources. The Virtually Real Consortium (VRC) will have a crisis database in which stores all of the data sources from satellite to UAV surveying.
-
 ![eco-api-architecture](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/eco-api-architecture.png)
+
+### Data Input & Storing
+#### API Data Architecture
+The consortium's EcoMediations API is organized around public, private, and open source data sources. The Virtually Real Consortium (VRC) will have a crisis database in which stores all of the data sources from satellite to UAV surveying. From there the data is stored and is distributed into crisis scenarios. Each crisis scenario is categorized into two types of record containers, either species-specific or environmental-specific. From there each of these containers hold many variants of crisis records from atmosphere to seismic data.
+
+Example UML:
+
+![eco-mediations-UML](/assets/UML-example.png)
 
 #### Data Vetting
 Future data will be vetted through the VRC Data Ethics governing body where the source data is parsed for accuracy and filtered of redundancies. This governing body will help maintain consistency through an internal ETL/data cleaning process, especially as data is contributed from all fronts from the most micro DIY sensors to more complex uploads from institutions.
 
-#### The Human
-With the data and measurements of our environments, there is the idea of distinction between what is human influenced versus naturally occurring.
+#### The 'Human-hand'
+With the data and measurements of our environments, there is the idea of distinction between what is human influenced versus naturally occurring. With the v1 of this EcoMediations API, there will be no difference between nature and man-made environmental factors. The difference is not necessarily required to sense crisis, as humans can play both part in creating as well as tending to these moments of trouble. With that, a crisis is a crisis no matter how it's divided.
 
 ### Event & Data Thresholds
 Through a few speculative near-future partnerships with environmental agencies such as the EPA, NASA, WWF, USDA, US Forest Service, and more... the VRC will be able to facilitate local and global agreements on thresholds in which environmental data cross and automates a new climactic event. Additionally, organizations using the EcoMediations API may follow the threshold examples below for their own implementation purposes.
@@ -206,7 +210,6 @@ GET /v1/scenarios/:scenario_id/records?record_type=canopyCover
 
 ##### Example Implementation #1:
 A few examples of Spotify's revamp on their music filter. Where songs are now modified based on `total_loss_by_natural` to adjust pitch and tone. Just as well, additional elements of modification are drawn from the Species Record as an inclusion of Bark Beetle data in the Northern California forestry areas.
-<br>
 <br>
 Sample Spotify EcoAudio Files:
 <br>
