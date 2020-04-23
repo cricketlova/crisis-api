@@ -10,7 +10,7 @@ Most API integrations help developers and designers build applications. Few appr
 
 We at the Virtually Real Consortium (www.virtuallyrealconsortium.org) propose that developers, makers, and more should begin moving towards an ecological hybridity of our degrading environment to our lived, digital, and virtual realities. There is no promise of a better environment tomorrow, but we can at least do our part in raising a new relationship and awareness with it.
 
-The EcoMediations API is speculated around REST protocols. This API is for use in our crisis driven future and can be built around resource-oriented URLs, JSON-responses, HTTP response codes, etc... (or something else entirely).
+This API is for use in our crisis driven future and follows RESTful standards and uses JSON.
 
 ### Data Input & Storing
 
