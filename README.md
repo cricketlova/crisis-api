@@ -15,7 +15,7 @@ This API is for use in our crisis driven future and follows RESTful standards an
 #### Inputs
 The consortium's EcoMediations API is organized around public, private, and open source data sources. The Virtually Real Consortium (VRC) will have a crisis database in which stores all of the data sources from satellite to UAV surveying.
 
-![eco-api-architecture](https://raw.githubusercontent.com/cricketlova/crisis-api/master/eco-api-architecture.png)
+![eco-api-architecture](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/eco-api-architecture.png)
 
 #### Data Vetting
 Future data will be vetted through the VRC Data Ethics governing body where the source data is parsed for accuracy and filtered of redundancies. This governing body will help maintain consistency through an internal ETL/data cleaning process, especially as data is contributed from all fronts from the most micro DIY sensors to more complex uploads from institutions.
@@ -29,7 +29,7 @@ Through a few speculative near-future partnerships with environmental agencies s
 ### Outputs
 The outputs of this crisis focused database is an embedding of crisis moments as an integrated moment in between our digital and virtual experiences. The goal is to partner with technology to showcase environmental crisis not as a static visualization, report, or mapping dashboard, but rather a truly dynamic imaginary implicitly part of products and software we consume on a day to day. A consumer grade level integration across all of our media.
 
-![hypergreen-environment-model](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/eco-api-architecture.png)
+![hypergreen-environment-model](https://raw.githubusercontent.com/cricketlova/crisis-api/master/Assets/Current%20Environmental%20Model.png)
 
 
 ## Reference
@@ -210,9 +210,9 @@ A few examples of Spotify's revamp on their music filter. Where songs are now mo
 <br>
 Sample Spotify EcoAudio Files:
 <br>
-[Simon & Garfunkel - The Sound of Silence](/SimonGarfunkel_SoundofSilence.mp3)
+[Simon & Garfunkel - The Sound of Silence](/Assets/SimonGarfunkel_SoundofSilence.mp3)
 <br>
-[The Temptations - Ain't too Proud](/SimonGarfunkel_SoundofSilence.mp3)
+[The Temptations - Ain't too Proud](/Assets/TheTemptations_AintTooProudToBeg.mp3)
 
 
 ---
