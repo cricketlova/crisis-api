@@ -214,7 +214,7 @@ Sample Spotify EcoAudio Files:
 <br>
 [The Temptations - Ain't too Proud](/Assets/TheTemptations_AintTooProudToBeg.mp3)
 
-<b>
+<br>
 
 ##### Example Implementation #2:
 An example of how Unity developers are now including levels of growth and decay in in their VR development. Objects in Unity can link to our SDK for `tree_gain` in which include an assortment of crisis centric realism that can be added to your plant life based on growth over time as well as cross-referencing moisture levels in the Atmospheric record.
@@ -283,3 +283,9 @@ Example Code:
   ]
 }
 ```
+
+##### Example Implementation:
+Below is a demo of another Unity project wherein developers have transformed a home VR scene with all of the relevant crisis focused data within the `seaLevelRecord`,  specifically based on `sea_height_variation`.
+<br>
+
+![Rain-plant-growth-example](https://github.com/cricketlova/crisis-api/blob/master/Assets/pool-scene.gif?raw=true)
