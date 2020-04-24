@@ -1,7 +1,7 @@
 > :warning: **This API is not stable or real yet!**: This document is a speculative API that details the deep integration of environmental crisis data into our digital and virtual devices. Please note that until we can get further support and development, this API is not considered stable or real yet, and any of these proposals may change with time. We’re incredibly interested in your feedback. If you spot an instance where this EcoMediations API can be improved, please do email for discussion. For any other questions, including support on how to use the API and as a place for open discussions on the design and principles, email us too.
 
 # EcoMediations API
-An ecomediated API for the current Anthropocene and deep integrations with the [Hyper Green Initiative](https://www.virtuallyrealconsortium.org/hyper-green-intiative/).
+An ecomediated API for the current Anthropocene and deep integrations with the [Hyper Green Initiative](https://virtuallyrealconsortium.org/hyper-green-initiative).
 
 
 ## Introduction
